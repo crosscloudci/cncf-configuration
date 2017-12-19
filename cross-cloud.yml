@@ -68,7 +68,7 @@ projects:
     gitlab_name: prometheus
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
-    timeout: 60
+    timeout: 30
     stable_ref: "v2.0.0"
     head_ref: "master"
     app_layer: true
