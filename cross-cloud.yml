@@ -18,7 +18,7 @@ gitlab_pipeline:
 clouds:
   aws: 
     active: true
-    display_name: AWS 
+    display_name: AWS_test
     order: 1
   azure: 
     active: true
