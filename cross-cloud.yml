@@ -6,7 +6,7 @@ gitlab_pipeline:
       - "Build-Source"
       - "App-Deploy"
   cross-cloud:
-    timeout: 660
+    timeout: 960
     status_jobs:
       - "Provisioning"
   project:
