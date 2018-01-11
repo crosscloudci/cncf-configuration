@@ -107,7 +107,7 @@ projects:
     gitlab_name: linkerd
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
-    timeout: 3600
+    timeout: 90
     stable_ref: "1.3.3"
     head_ref: "master"
     app_layer: true
