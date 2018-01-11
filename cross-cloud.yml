@@ -1,11 +1,12 @@
 ---
 gitlab_pipeline:
   cross-project:
-    timeout: 7200
+    timeout: 660
     status_jobs:
+      - "Build-Source"
       - "App-Deploy"
   cross-cloud:
-    timeout: 7200
+    timeout: 960
     status_jobs:
       - "Provisioning"
   project:
@@ -18,28 +19,28 @@ gitlab_pipeline:
 clouds:
   aws: 
     active: true
-    display_name: AWS_test
+    display_name: AWS
     order: 1
   azure: 
     active: true
     display_name: Azure
     order: 2
   bluemix: 
-    active: false
+    active: true
     display_name: Bluemix
     order: 3
   gce: 
     active: true
-    display_name: Google 
+    display_name: GCE 
     order: 4
   gke: 
-    active: false
+    active: true
     display_name: GKE 
-    order: 99
+    order: 5
   openstack: 
     active: false
     display_name: OpenStack
-    order: 5
+    order: 99
   packet: 
     active: true
     display_name: Packet
