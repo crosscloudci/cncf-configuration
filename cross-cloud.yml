@@ -6,7 +6,7 @@ gitlab_pipeline:
       - "Build-Source"
       - "App-Deploy"
   cross-cloud:
-    timeout: 90
+    timeout: 3600
     status_jobs:
       - "Provisioning"
   project:
@@ -69,7 +69,7 @@ projects:
     gitlab_name: prometheus
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
-    timeout: 360
+    timeout: 3600
     stable_ref: "v2.0.0"
     head_ref: "master"
     app_layer: true
