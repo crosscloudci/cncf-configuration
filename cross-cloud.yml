@@ -36,11 +36,11 @@ clouds:
   gke: 
     active: true
     display_name: GKE 
-    order: 99
+    order: 5
   openstack: 
     active: false
     display_name: OpenStack
-    order: 5
+    order: 99
   packet: 
     active: true
     display_name: Packet
