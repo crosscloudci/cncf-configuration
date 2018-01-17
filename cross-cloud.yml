@@ -1,12 +1,12 @@
 ---
 gitlab_pipeline:
   cross-project:
-    timeout: 660
+    timeout: 3600
     status_jobs:
       - "Build-Source"
       - "App-Deploy"
   cross-cloud:
-    timeout: 960
+    timeout: 3600
     status_jobs:
       - "Provisioning"
   project:
@@ -26,7 +26,7 @@ clouds:
     display_name: Azure
     order: 2
   bluemix: 
-    active: true
+    active: false
     display_name: Bluemix
     order: 3
   gce: 
@@ -42,7 +42,7 @@ clouds:
     display_name: OpenStack
     order: 99
   packet: 
-    active: true
+    active: false
     display_name: Packet
     order: 6
 
@@ -56,7 +56,7 @@ projects:
     gitlab_name: Kubernetes
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
-    timeout: 7200
+    timeout: 3600
     stable_ref: "v1.8.1"
     head_ref: "master"
     app_layer: false
@@ -69,7 +69,7 @@ projects:
     gitlab_name: prometheus
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
-    timeout: 360
+    timeout: 3600
     stable_ref: "v2.0.0"
     head_ref: "master"
     app_layer: true
