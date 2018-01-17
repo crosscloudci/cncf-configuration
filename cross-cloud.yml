@@ -42,7 +42,7 @@ clouds:
     display_name: OpenStack
     order: 99
   packet: 
-    active: false
+    active: true
     display_name: Packet
     order: 6
 
