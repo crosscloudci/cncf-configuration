@@ -26,9 +26,9 @@ clouds:
     display_name: Azure
     order: 2
   bluemix: 
-    active: true
+    active: false
     display_name: Bluemix
-    order: 3
+    order: 99
   gce: 
     active: true
     display_name: GCE 
