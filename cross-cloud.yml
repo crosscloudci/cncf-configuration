@@ -1,12 +1,12 @@
 ---
 gitlab_pipeline:
   cross-project:
-    timeout: 3600
+    timeout: 300
     status_jobs:
       - "Build-Source"
       - "App-Deploy"
   cross-cloud:
-    timeout: 3600
+    timeout: 1200
     status_jobs:
       - "Provisioning"
   project:
@@ -28,7 +28,7 @@ clouds:
   bluemix: 
     active: false
     display_name: Bluemix
-    order: 3
+    order: 99
   gce: 
     active: true
     display_name: GCE 
@@ -56,7 +56,7 @@ projects:
     gitlab_name: Kubernetes
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
-    timeout: 3600
+    timeout: 900
     stable_ref: "v1.8.1"
     head_ref: "master"
     app_layer: false
@@ -69,7 +69,7 @@ projects:
     gitlab_name: prometheus
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
-    timeout: 3600
+    timeout: 600
     stable_ref: "v2.0.0"
     head_ref: "master"
     app_layer: true
@@ -82,7 +82,7 @@ projects:
     gitlab_name: coredns
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
-    timeout: 3600 
+    timeout: 1200 
     stable_ref: "v1.0.0"
     head_ref: "master"
     app_layer: true
@@ -95,7 +95,7 @@ projects:
     gitlab_name: fluentd
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
-    timeout: 3600
+    timeout: 300
     stable_ref: "v0.14.25"
     head_ref: "master"
     app_layer: true
@@ -108,7 +108,7 @@ projects:
     gitlab_name: linkerd
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
-    timeout: 3600
+    timeout: 1200
     stable_ref: "1.3.3"
     head_ref: "master"
     app_layer: true
