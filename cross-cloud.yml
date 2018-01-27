@@ -27,7 +27,7 @@ clouds:
     order: 2
   bluemix: 
     active: false
-    display_name: Bluemix
+    display_name: IBM Cloud
     order: 99
   gce: 
     active: true
