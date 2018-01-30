@@ -27,7 +27,7 @@ clouds:
     order: 2
   bluemix: 
     active: false
-    display_name: Bluemix
+    display_name: IBM Cloud
     order: 99
   gce: 
     active: true
@@ -102,8 +102,8 @@ projects:
   linkerd: 
     order: 5
     active: true
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/de03cb1655da4bdb82a7a753f398452d24f1b83a/linkerd/icon/color/linkerd-icon-color.png"
-    display_name: linkerd
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/linkerd/icon/color/linkerd-icon-color.png"
+    display_name: Linkerd
     sub_title: Service Mesh
     gitlab_name: linkerd
     project_url: "https://github.com/linkerd/linkerd"
