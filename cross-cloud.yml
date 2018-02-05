@@ -112,7 +112,20 @@ projects:
     stable_ref: "1.3.3"
     head_ref: "master"
     app_layer: true
-
+  onap-mso: 
+    order: 6
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
+    display_name: ONAP MSO
+    sub_title: Network Automation
+    gitlab_name: onap
+    project_url: "https://github.com/onap/mso"
+    repository_url: "https://github.com/onap/mso"
+    timeout: 1200
+    stable_ref: "v1.1.1"
+    head_ref: "master"
+    app_layer: true
+    container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
 
 clouds_old:
   AWS: true
