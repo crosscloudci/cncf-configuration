@@ -102,9 +102,9 @@ projects:
   linkerd: 
     order: 5
     active: true
-    logo_url: "https://www.onap.org/wp-content/uploads/sites/20/2017/02/logo_onap_2017.png"
+    logo_url: "https://raw.githubusercontent.com/crosscloudci/artwork/master/ONAP/logo_onap_2017-square.png?token=ALKME0cX7w7yr0xU5_Bgm9kyMUr-ur0Eks5ai2gOwA%3D%3D"
     display_name: ONAP
-    sub_title: Open Network Automation Platform
+    sub_title: Network Automation
     gitlab_name: linkerd
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
@@ -115,7 +115,7 @@ projects:
   onap-mso: 
     order: 6
     active: true
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
+    logo_url: "https://raw.githubusercontent.com/crosscloudci/artwork/master/ONAP/logo_onap_2017-square.png?token=ALKME0cX7w7yr0xU5_Bgm9kyMUr-ur0Eks5ai2gOwA%3D%3D"
     display_name: ONAP MSO
     sub_title: Network Automation
     gitlab_name: onap
