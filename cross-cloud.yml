@@ -38,7 +38,7 @@ clouds:
     display_name: GKE 
     order: 5
   openstack: 
-    active: true
+    active: false
     display_name: OpenStack
     order: 7
   packet: 
