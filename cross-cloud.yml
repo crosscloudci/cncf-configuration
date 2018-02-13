@@ -38,12 +38,12 @@ clouds:
     display_name: GKE 
     order: 5
   openstack: 
-    active: false
+    active: true
     display_name: OpenStack
-    order: 99
+    order: 7
   packet: 
     active: true
-    display_name: Packet
+    display_name: Bare Metal
     order: 6
 
 projects:
