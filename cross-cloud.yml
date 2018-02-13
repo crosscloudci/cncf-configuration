@@ -102,14 +102,14 @@ projects:
   linkerd: 
     order: 5
     active: true
-    logo_url: "https://raw.githubusercontent.com/crosscloudci/artwork/master/ONAP/logo_onap_2017-square.png?token=ALKME0cX7w7yr0xU5_Bgm9kyMUr-ur0Eks5ai2gOwA%3D%3D"
-    display_name: ONAP
-    sub_title: Network Automation
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
+    display_name: Linkerd
+    sub_title: Service Mesh
     gitlab_name: linkerd
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1200
-    stable_ref: "1.1.0"
+    stable_ref: "1.3.3"
     head_ref: "master"
     app_layer: true
   onap-mso: 
