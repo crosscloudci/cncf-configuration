@@ -115,8 +115,8 @@ projects:
   so:
     order: 6
     active: true
-    logo_url: "https://raw.githubusercontent.com/crosscloudci/artwork/master/ONAP/logo_onap_2017-square.png?token=ALKME0cX7w7yr0xU5_Bgm9kyMUr-ur0Eks5ai2gOwA%3D%3D"
-    display_name: ONAP MSO
+    logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
+    display_name: ONAP SO
     sub_title: Network Automation
     gitlab_name: so
     project_url: "https://github.com/onap/so"
