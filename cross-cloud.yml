@@ -83,7 +83,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 1200 
-    stable_ref: "v1.0.5"
+    stable_ref: "v1.0.6"
     head_ref: "master"
     app_layer: true
   fluentd: 
