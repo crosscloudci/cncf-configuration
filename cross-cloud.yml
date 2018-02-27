@@ -124,6 +124,8 @@ projects:
     timeout: 300
     stable_ref: "v1.1.1"
     head_ref: "master"
+    stable_chart: "onap-amsterdam"
+    head_chart: "onap-master"
     app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
