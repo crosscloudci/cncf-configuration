@@ -114,21 +114,7 @@ projects:
     stable_ref: "1.3.5"
     head_ref: "master"
     app_layer: true
-  so:
-    order: 6
-    active: false
-    logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
-    display_name: ONAP
-    sub_title: Network Automation
-    gitlab_name: so
-    project_url: "https://github.com/onap/so"
-    repository_url: "https://github.com/onap/so"
-    timeout: 300
-    stable_ref: "v1.1.1"
-    head_ref: "master"
-    app_layer: true
-    container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
-    head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
+
 
 clouds_old:
   AWS: true
