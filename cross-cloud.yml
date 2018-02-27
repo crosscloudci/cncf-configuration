@@ -98,6 +98,8 @@ projects:
     timeout: 300
     stable_ref: "v1.1.0"
     head_ref: "master"
+    stable_chart: "incubator"  
+    head_chart: "incubator"
     app_layer: true
   linkerd: 
     order: 5
