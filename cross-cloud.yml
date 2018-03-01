@@ -92,7 +92,7 @@ projects:
     app_layer: true
   fluentd: 
     order: 4
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/bcabeb288a5c934278acd20b479ab8da494f2711/fluentd/icon/color/fluentd-icon-color.png"
     display_name: Fluentd
     sub_title: Logging
@@ -122,7 +122,7 @@ projects:
     app_layer: true
   so:
     order: 6
-    active: true
+    active: false
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
