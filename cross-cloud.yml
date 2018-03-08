@@ -5,6 +5,7 @@ gitlab_pipeline:
     status_jobs:
       - "Build-Source"
       - "App-Deploy"
+      - "e2e"
   cross-cloud:
     timeout: 1200
     status_jobs:
@@ -13,7 +14,6 @@ gitlab_pipeline:
     status_jobs:
       - "container"
       - "compile"
-      - "e2e"
 
 clouds:
   aws: 
