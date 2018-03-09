@@ -36,9 +36,9 @@ clouds:
     active: true
     display_name: TEST
     order: 5
-  ibm: 
+  bluemix: 
     active: true
-    display_name: IBM
+    display_name: Bluemix
     order: 6
   data: 
     active: true
@@ -144,17 +144,3 @@ projects:
     app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
-
-clouds_old:
-  AWS: true
-  Azure: false
-  IBM: true
-  GKE: true
-  GCE: true
-  Packet: true
-  aws: false
-  azure: false
-  bluemix: false
-  gke: false
-  gce: false
-  packet: false
