@@ -32,18 +32,10 @@ clouds:
     active: true
     display_name: GKE 
     order: 4
-  test: 
+  ibmcloud: 
     active: true
-    display_name: TEST
-    order: 5
-  bluemix: 
-    active: true
-    display_name: Bluemix
+    display_name: IBM Cloud
     order: 6
-  data: 
-    active: true
-    display_name: Data
-    order: 7
   openstack: 
     active: false
     display_name: OpenStack
@@ -52,6 +44,22 @@ clouds:
     active: true
     display_name: Packet
     order: 8
+  data: 
+    active: false
+    display_name: Data
+    order: 9997
+  ibm: 
+    active: false
+    display_name: IBM
+    order: 9998
+  test: 
+    active: false
+    display_name: TEST
+    order: 9995  
+  bluemix: 
+    active: false
+    display_name: Bluemix
+    order: 9996
 
 projects:
   kubernetes: 
