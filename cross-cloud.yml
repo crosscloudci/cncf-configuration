@@ -99,7 +99,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 350
-    stable_ref: "v1.1.0"
+    stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -114,14 +114,14 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.3.5"
+    stable_ref: "1.3.6"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
   so:
     order: 6
-    active: true
+    active: false
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
