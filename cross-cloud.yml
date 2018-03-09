@@ -32,10 +32,18 @@ clouds:
     active: true
     display_name: GKE 
     order: 4
+  test: 
+    active: true
+    display_name: TEST
+    order: 5
   ibm: 
     active: true
     display_name: IBM
-    order: 5
+    order: 6
+  data: 
+    active: true
+    display_name: Data
+    order: 7
   openstack: 
     active: false
     display_name: OpenStack
@@ -43,7 +51,7 @@ clouds:
   packet: 
     active: true
     display_name: Packet
-    order: 6
+    order: 8
 
 projects:
   kubernetes: 
