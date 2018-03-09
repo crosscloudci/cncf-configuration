@@ -83,7 +83,7 @@ projects:
     gitlab_name: coredns
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
-    timeout: 250 
+    timeout: 350 
     stable_ref: "v1.0.6"
     head_ref: "master"
     stable_chart: "stable"
@@ -98,7 +98,7 @@ projects:
     gitlab_name: fluentd
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
-    timeout: 200
+    timeout: 350
     stable_ref: "v1.1.0"
     head_ref: "master"
     stable_chart: "cncf"
