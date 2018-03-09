@@ -42,24 +42,8 @@ clouds:
     order: 99
   packet: 
     active: true
-    display_name: Packet
+    display_name: Bare Metal
     order: 8
-  data: 
-    active: false
-    display_name: Data
-    order: 9997
-  ibm: 
-    active: false
-    display_name: IBM
-    order: 9998
-  test: 
-    active: false
-    display_name: TEST
-    order: 9995  
-  bluemix: 
-    active: false
-    display_name: Bluemix
-    order: 9996
 
 projects:
   kubernetes: 
@@ -85,7 +69,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.2.0"
+    stable_ref: "v2.1.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
