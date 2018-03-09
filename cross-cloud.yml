@@ -128,7 +128,7 @@ projects:
     gitlab_name: so
     project_url: "https://github.com/onap/so"
     repository_url: "https://github.com/onap/so"
-    timeout: 900
+    timeout: 2100
     stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "onap-amsterdam"
