@@ -140,7 +140,7 @@ projects:
 clouds_old:
   AWS: true
   Azure: false
-  Bluemix: false
+  IBM: true
   GKE: true
   GCE: true
   Packet: true
