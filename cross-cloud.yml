@@ -98,7 +98,7 @@ projects:
     gitlab_name: fluentd
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
-    timeout: 350
+    timeout: 500
     stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "cncf"
@@ -121,7 +121,7 @@ projects:
     app_layer: true
   so:
     order: 6
-    active: false
+    active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
