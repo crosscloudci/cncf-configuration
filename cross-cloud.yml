@@ -24,26 +24,26 @@ clouds:
     active: true
     display_name: Azure
     order: 2
-  bluemix: 
-    active: false
-    display_name: IBM Cloud
-    order: 99
   gce: 
     active: true
     display_name: GCE 
-    order: 4
+    order: 3
   gke: 
     active: true
     display_name: GKE 
-    order: 5
+    order: 4
+  ibmcloud: 
+    active: true
+    display_name: IBM Cloud
+    order: 6
   openstack: 
     active: false
     display_name: OpenStack
     order: 99
   packet: 
     active: true
-    display_name: Packet
-    order: 6
+    display_name: Bare Metal
+    order: 8
 
 projects:
   kubernetes: 
@@ -83,7 +83,7 @@ projects:
     gitlab_name: coredns
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
-    timeout: 250 
+    timeout: 350 
     stable_ref: "v1.0.6"
     head_ref: "master"
     stable_chart: "stable"
@@ -136,17 +136,3 @@ projects:
     app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
-
-clouds_old:
-  AWS: true
-  Azure: false
-  Bluemix: false
-  GKE: true
-  GCE: true
-  Packet: true
-  aws: false
-  azure: false
-  bluemix: false
-  gke: false
-  gce: false
-  packet: false
