@@ -24,18 +24,14 @@ clouds:
     active: true
     display_name: Azure
     order: 2
-  ibm: 
-    active: true
-    display_name: IBM
-    order: 3
   gce: 
     active: true
     display_name: GCE 
-    order: 4
+    order: 3
   gke: 
     active: true
     display_name: GKE 
-    order: 5
+    order: 4
   openstack: 
     active: false
     display_name: OpenStack
@@ -43,6 +39,10 @@ clouds:
   packet: 
     active: true
     display_name: Packet
+    order: 5
+  ibm: 
+    active: true
+    display_name: IBM
     order: 6
 
 projects:
