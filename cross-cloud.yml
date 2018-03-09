@@ -26,7 +26,7 @@ clouds:
     order: 2
   ibm: 
     active: true
-    display_name: IBM Cloud
+    display_name: IBM
     order: 3
   gce: 
     active: true
