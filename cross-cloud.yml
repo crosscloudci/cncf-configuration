@@ -24,10 +24,10 @@ clouds:
     active: true
     display_name: Azure
     order: 2
-  bluemix: 
-    active: false
+  ibm: 
+    active: true
     display_name: IBM Cloud
-    order: 99
+    order: 3
   gce: 
     active: true
     display_name: GCE 
