@@ -42,7 +42,7 @@ clouds:
     order: 99
   packet: 
     active: true
-    display_name: Packet
+    display_name: Bare Metal (Packet)
     order: 8
   data: 
     active: false
