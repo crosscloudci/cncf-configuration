@@ -85,7 +85,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.2.0"
+    stable_ref: "v2.2.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
