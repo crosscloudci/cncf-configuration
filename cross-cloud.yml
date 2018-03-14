@@ -36,14 +36,14 @@ clouds:
     active: true
     display_name: IBM Cloud
     order: 6
+  packet: 
+    active: true
+    display_name: Bare Metal (Packet)
+    order: 8
   openstack: 
     active: false
     display_name: OpenStack
-    order: 99
-  packet: 
-    active: true
-    display_name: Bare Metal
-    order: 8
+    order: 9
 
 projects:
   kubernetes: 
@@ -56,7 +56,7 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 900
-    stable_ref: "v1.9.3"
+    stable_ref: "v1.9.4"
     head_ref: "master"
     app_layer: false
   prometheus: 
@@ -69,7 +69,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.1.0"
+    stable_ref: "v2.2.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -84,7 +84,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.0.6"
+    stable_ref: "v1.1.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
