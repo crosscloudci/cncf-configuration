@@ -38,28 +38,12 @@ clouds:
     order: 6
   packet: 
     active: true
-    display_name: Bare Metal
+    display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: true
+    active: false
     display_name: OpenStack
     order: 9
-  data: 
-    active: false
-    display_name: Data
-    order: 9997
-  ibm: 
-    active: false
-    display_name: IBM
-    order: 9998
-  test: 
-    active: false
-    display_name: TEST
-    order: 9995  
-  bluemix: 
-    active: false
-    display_name: Bluemix
-    order: 9996
 
 projects:
   kubernetes: 
@@ -144,7 +128,7 @@ projects:
     gitlab_name: so
     project_url: "https://github.com/onap/so"
     repository_url: "https://github.com/onap/so"
-    timeout: 900
+    timeout: 2100
     stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "onap-amsterdam"
