@@ -42,8 +42,17 @@ clouds:
     order: 8
   openstack: 
     active: true
-    display_name: Open Stackin
+    display_name: Open Stacken
     order: 9
+  testcloud90: 
+    active: true
+    display_name: Open Stackens
+    order: 10
+  testcloud91: 
+    active: true
+    display_name: Open Stacko
+    order: 11
+    
 
 projects:
   kubernetes: 
