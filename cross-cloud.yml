@@ -52,7 +52,7 @@ clouds:
     active: true
     display_name: Open Stacken
     order: 11
-   testcloud92: 
+  testcloud92: 
     active: true
     display_name: Open Stacking
     order: 12
