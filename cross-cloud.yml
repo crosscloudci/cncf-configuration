@@ -36,14 +36,14 @@ clouds:
     active: true
     display_name: IBM Cloud
     order: 6
-  openstack: 
-    active: false
-    display_name: OpenStack
-    order: 99
   packet: 
     active: true
     display_name: Bare Metal
     order: 8
+  openstack: 
+    active: true
+    display_name: OpenStack
+    order: 9
   data: 
     active: false
     display_name: Data
