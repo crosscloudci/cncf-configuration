@@ -42,7 +42,7 @@ clouds:
     order: 8
   openstack: 
     active: true
-    display_name: OpenStack
+    display_name: Open Stackin
     order: 9
 
 projects:
