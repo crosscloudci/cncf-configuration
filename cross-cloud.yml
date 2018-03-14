@@ -41,7 +41,7 @@ clouds:
     display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: false
+    active: true
     display_name: OpenStack
     order: 9
 
