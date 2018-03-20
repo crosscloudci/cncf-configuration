@@ -41,9 +41,22 @@ clouds:
     display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: false
+    active: true
     display_name: OpenStack
     order: 9
+  testcloud90: 
+    active: false
+    display_name: Open Stacko
+    order: 10
+  testcloud91: 
+    active: false
+    display_name: Open Stacken
+    order: 11
+  testcloud92: 
+    active: false
+    display_name: Open Stacking
+    order: 12
+    
 
 projects:
   kubernetes: 
