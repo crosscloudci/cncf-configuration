@@ -69,7 +69,7 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 900
-    stable_ref: "v1.9.4"
+    stable_ref: "v1.9.6"
     head_ref: "master"
     app_layer: false
   prometheus: 
@@ -97,7 +97,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.1.0"
+    stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -112,7 +112,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.1.1"
+    stable_ref: "v1.1.2"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
