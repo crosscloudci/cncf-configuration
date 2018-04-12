@@ -131,7 +131,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.3.6"
+    stable_ref: "1.3.7"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
