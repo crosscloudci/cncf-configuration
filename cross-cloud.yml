@@ -29,7 +29,7 @@ clouds:
     display_name: GCE 
     order: 3
   gke: 
-    active: true
+    active: false
     display_name: GKE 
     order: 4
   ibmcloud: 
