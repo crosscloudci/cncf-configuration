@@ -44,18 +44,22 @@ clouds:
     active: true
     display_name: OpenStack
     order: 9
+  oracle: 
+    active: false
+    display_name: Oracle
+    order: 10
   testcloud90: 
     active: false
     display_name: Open Stacko
-    order: 10
+    order: 11
   testcloud91: 
     active: false
     display_name: Open Stacken
-    order: 11
+    order: 12
   testcloud92: 
     active: false
     display_name: Open Stacking
-    order: 12
+    order: 13
     
 
 projects:
@@ -112,7 +116,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.1.2"
+    stable_ref: "v1.1.3"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -127,7 +131,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.3.6"
+    stable_ref: "1.3.7"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
