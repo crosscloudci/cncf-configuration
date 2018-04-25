@@ -101,7 +101,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.1.1"
+    stable_ref: "v1.1.2"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
