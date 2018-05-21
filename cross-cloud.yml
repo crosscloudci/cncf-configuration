@@ -73,7 +73,7 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 900
-    stable_ref: "v1.10.2"
+    stable_ref: "v1.10.3"
     head_ref: "master"
     app_layer: false
   prometheus: 
