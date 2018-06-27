@@ -46,7 +46,7 @@ clouds:
     order: 9
   vsphere:
     active: true
-    display_name: vSphere
+    display_name: VMware Cloud on AWS
     order: 10
   oracle: 
     active: false
