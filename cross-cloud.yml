@@ -33,7 +33,7 @@ clouds:
     display_name: GKE 
     order: 4
   ibmcloud: 
-    active: true
+    active: false
     display_name: IBM Cloud
     order: 6
   packet: 
