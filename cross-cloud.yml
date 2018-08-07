@@ -49,8 +49,8 @@ clouds:
     display_name: VMware vSphere
     order: 10
   oracle: 
-    active: false
-    display_name: Oracle
+    active: true
+    display_name: Oracle Cloud Infrastructure
     order: 11
   testcloud90: 
     active: false
