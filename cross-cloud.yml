@@ -50,7 +50,7 @@ clouds:
     order: 10
   oracle: 
     active: false
-    display_name: Oracle
+    display_name: Oracle Cloud Infrastructure
     order: 11
   testcloud90: 
     active: false
@@ -77,7 +77,7 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 900
-    stable_ref: "v1.11.1"
+    stable_ref: "v1.11.2"
     head_ref: "master"
     app_layer: false
   prometheus: 
@@ -120,7 +120,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.2.3"
+    stable_ref: "v1.2.4"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -135,7 +135,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.4.5"
+    stable_ref: "1.4.6"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -157,3 +157,18 @@ projects:
     app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
+  envoy:
+    order: 7
+    active: false
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
+    display_name: Envoy
+    sub_title: Service Mesh
+    gitlab_name: envoy
+    project_url: "https://github.com/envoyproxy/envoy"
+    repository_url: "https://github.com/envoyproxy/envoy"
+    timeout: 2100
+    stable_ref: "v1.7.1"
+    head_ref: "master"
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
