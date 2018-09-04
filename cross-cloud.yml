@@ -105,7 +105,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.2.0"
+    stable_ref: "v1.2.2"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -120,7 +120,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.2.4"
+    stable_ref: "v1.2.5"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -141,7 +141,7 @@ projects:
     head_chart: "stable"
     app_layer: true
   so:
-    order: 6
+    order: 7
     active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
@@ -158,8 +158,8 @@ projects:
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
-    order: 7
-    active: false
+    order: 6
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
     sub_title: Service Mesh
