@@ -56,10 +56,6 @@ clouds:
     active: true
     display_name: Oracle Cloud Infrastructure
     order: 12
-  testcloud89:
-    active: false
-    display_name: Oreo
-    order: 13
   testcloud90: 
     active: false
     display_name: Open Stacko
