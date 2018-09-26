@@ -48,7 +48,7 @@ clouds:
     active: true
     display_name: VMware vSphere
     order: 10
-  testcloud88: 
+  oracle: 
     active: false
     display_name: oreocloud
     order: 11
