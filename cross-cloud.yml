@@ -48,26 +48,30 @@ clouds:
     active: true
     display_name: VMware vSphere
     order: 10
+  testcloud88: 
+    active: false
+    display_name: oreocloud
+    order: 11
   oci: 
     active: true
     display_name: Oracle Cloud Infrastructure
-    order: 11
+    order: 12
   testcloud89:
     active: false
     display_name: Oreo
-    order: 12
+    order: 13
   testcloud90: 
     active: false
     display_name: Open Stacko
-    order: 13
+    order: 14
   testcloud91: 
     active: false
     display_name: Open Stacken
-    order: 14
+    order: 15
   testcloud92: 
     active: false
     display_name: Open Stacking
-    order: 15
+    order: 16
     
 
 projects:
