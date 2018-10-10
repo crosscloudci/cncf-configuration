@@ -53,7 +53,7 @@ clouds:
     display_name: oreocloud
     order: 11
   oci: 
-    active: false
+    active: true
     display_name: Oracle Cloud Infrastructure
     order: 12
   testcloud90: 
