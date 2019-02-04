@@ -17,15 +17,15 @@ gitlab_pipeline:
 
 clouds:
   aws: 
-    active: true
+    active: false
     display_name: AWS
     order: 1
   azure: 
-    active: true
+    active: false
     display_name: Azure
     order: 2
   gce: 
-    active: true
+    active: false
     display_name: GCE 
     order: 3
   gke: 
@@ -33,7 +33,7 @@ clouds:
     display_name: GKE 
     order: 4
   ibmcloud: 
-    active: true
+    active: false
     display_name: IBM Cloud
     order: 6
   packet: 
@@ -41,29 +41,33 @@ clouds:
     display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: true
+    active: false
     display_name: OpenStack
     order: 9
   vsphere:
-    active: true
+    active: false
     display_name: VMware vSphere
     order: 10
   oracle: 
     active: false
-    display_name: Oracle Cloud Infrastructure
+    display_name: oreocloud
     order: 11
+  oci: 
+    active: false
+    display_name: Oracle Cloud Infrastructure
+    order: 12
   testcloud90: 
     active: false
     display_name: Open Stacko
-    order: 12
+    order: 14
   testcloud91: 
     active: false
     display_name: Open Stacken
-    order: 13
+    order: 15
   testcloud92: 
     active: false
     display_name: Open Stacking
-    order: 14
+    order: 16
     
 
 projects:
@@ -77,7 +81,7 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 900
-    stable_ref: "v1.11.2"
+    stable_ref: "v1.13.0"
     head_ref: "master"
     app_layer: false
   prometheus: 
@@ -90,7 +94,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.3.2"
+    stable_ref: "v2.5.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -105,7 +109,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.2.2"
+    stable_ref: "v1.2.6"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -120,7 +124,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.2.5"
+    stable_ref: "v1.3.1"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -135,7 +139,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.4.6"
+    stable_ref: "1.5.2"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -167,7 +171,7 @@ projects:
     project_url: "https://github.com/envoyproxy/envoy"
     repository_url: "https://github.com/envoyproxy/envoy"
     timeout: 2100
-    stable_ref: "v1.7.1"
+    stable_ref: "v1.9.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
