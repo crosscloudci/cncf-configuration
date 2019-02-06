@@ -87,7 +87,7 @@ projects:
     timeout: 600
     gitlab_name: prometheus
     repository_url: "https://github.com/prometheus/prometheus"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36/cncfci.yml"
     # config_url: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36"
     # config_yml: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36/cncfci.yml"
 
@@ -102,7 +102,7 @@ projects:
     timeout: 350 
     gitlab_name: coredns
     repository_url: "https://github.com/coredns/coredns"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/project-details-36/cncfci.yml"
 
     stable_ref: "v1.2.2"
     head_ref: "master"
@@ -115,7 +115,7 @@ projects:
     timeout: 500
     gitlab_name: fluentd
     repository_url: "https://github.com/fluent/fluentd"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/project-details-36/cncfci.yml"
 
     stable_ref: "v1.2.5"
     head_ref: "master"
@@ -128,7 +128,7 @@ projects:
     timeout: 1500
     gitlab_name: linkerd
     repository_url: "https://github.com/linkerd/linkerd"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/project-details-36/cncfci.yml"
 
     stable_ref: "1.4.6"
     head_ref: "master"
@@ -141,7 +141,7 @@ projects:
     timeout: 2100
     gitlab_name: so
     repository_url: "https://github.com/onap/so"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/onap-so-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/onap-so-configuration/project-details-36/cncfci.yml"
 
     stable_ref: "v1.1.1"
     head_ref: "master"
@@ -156,7 +156,7 @@ projects:
     timeout: 2100
     gitlab_name: envoy
     repository_url: "https://github.com/envoyproxy/envoy"
-		configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/project-details-36/cncfci.yml"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/project-details-36/cncfci.yml"
     # stable_ref: "v1.7.1"
     # head_ref: "master"
     # stable_chart: "stable"
