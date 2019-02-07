@@ -17,15 +17,15 @@ gitlab_pipeline:
 
 clouds:
   aws: 
-    active: true
+    active: false 
     display_name: AWS
     order: 1
   azure: 
-    active: true
+    active: false
     display_name: Azure
     order: 2
   gce: 
-    active: true
+    active: false
     display_name: GCE 
     order: 3
   gke: 
@@ -33,7 +33,7 @@ clouds:
     display_name: GKE 
     order: 4
   ibmcloud: 
-    active: true
+    active: false
     display_name: IBM Cloud
     order: 6
   packet: 
@@ -41,11 +41,11 @@ clouds:
     display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: true
+    active: false
     display_name: OpenStack
     order: 9
   vsphere:
-    active: true
+    active: false
     display_name: VMware vSphere
     order: 10
   oracle: 
