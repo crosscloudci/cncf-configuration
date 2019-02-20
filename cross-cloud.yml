@@ -150,6 +150,7 @@ projects:
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
+    display_name: EnvoyOld
     order: 6
     active: true
     app_layer: true
