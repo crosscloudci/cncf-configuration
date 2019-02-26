@@ -17,15 +17,15 @@ gitlab_pipeline:
 
 clouds:
   aws: 
-    active: true
+    active: false
     display_name: AWS
     order: 1
   azure: 
-    active: true
+    active: false
     display_name: Azure
     order: 2
   gce: 
-    active: true
+    active: false
     display_name: GCE 
     order: 3
   gke: 
@@ -41,11 +41,11 @@ clouds:
     display_name: Bare Metal (Packet)
     order: 8
   openstack: 
-    active: true
+    active: false
     display_name: OpenStack
     order: 9
   vsphere:
-    active: true
+    active: false
     display_name: VMware vSphere
     order: 10
   oracle: 
@@ -53,7 +53,7 @@ clouds:
     display_name: oreocloud
     order: 11
   oci: 
-    active: true
+    active: false
     display_name: Oracle Cloud Infrastructure
     order: 12
   testcloud90: 
@@ -85,7 +85,7 @@ projects:
     head_ref: "master"
     app_layer: false
   prometheus: 
-    order: 2
+    order: 4
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
@@ -94,13 +94,13 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.5.0"
+    stable_ref: "v2.7.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
   coredns: 
-    order: 3
+    order: 2
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/coredns/icon/color/core-dns-icon-color.png"
     display_name: CoreDNS
@@ -109,13 +109,13 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.2.6"
+    stable_ref: "v1.3.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
   fluentd: 
-    order: 4
+    order: 5
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/bcabeb288a5c934278acd20b479ab8da494f2711/fluentd/icon/color/fluentd-icon-color.png"
     display_name: Fluentd
@@ -124,13 +124,13 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.3.1"
+    stable_ref: "v1.3.3"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
   linkerd: 
-    order: 5
+    order: 6
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
@@ -139,7 +139,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.5.2"
+    stable_ref: "1.6.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -162,7 +162,7 @@ projects:
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
-    order: 6
+    order: 3
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
