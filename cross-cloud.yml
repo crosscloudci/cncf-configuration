@@ -17,7 +17,7 @@ gitlab_pipeline:
 
 clouds:
   aws: 
-    active: false 
+    active: false
     display_name: AWS
     order: 1
   azure: 
@@ -85,82 +85,92 @@ projects:
     head_ref: "master"
     app_layer: false
   prometheus: 
-    order: 2
-    active: true
-    app_layer: true
-    timeout: 600
-    gitlab_name: prometheus
-    repository_url: "https://github.com/prometheus/prometheus"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
-    # config_url: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36"
-    # config_yml: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/project-details-36/cncfci.yml"
-    stable_ref: "v2.5.0"
-    head_ref: "master"
-    stable_chart: "stable"
-    head_chart: "stable"
-  coredns: 
-    order: 3
-    active: true
-    app_layer: true
-    timeout: 350 
-    gitlab_name: coredns
-    repository_url: "https://github.com/coredns/coredns"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
-    stable_ref: "v1.2.6"
-    head_ref: "master"
-    stable_chart: "stable"
-    head_chart: "stable"
-  fluentd: 
     order: 4
     active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
+    display_name: Prometheus
+    sub_title: Monitoring
+    gitlab_name: prometheus
+    project_url: "https://github.com/prometheus/prometheus"
+    repository_url: "https://github.com/prometheus/prometheus"
+    timeout: 600
+    stable_ref: "v2.7.1"
+    head_ref: "master"
+    stable_chart: "stable"
+    head_chart: "stable"
     app_layer: true
-    timeout: 500
-    gitlab_name: fluentd
-    repository_url: "https://github.com/fluent/fluentd"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
-    timeout: 500
+  coredns: 
+    order: 2
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/coredns/icon/color/core-dns-icon-color.png"
+    display_name: CoreDNS
+    sub_title: Service Discovery
+    gitlab_name: coredns
+    project_url: "https://github.com/coredns/coredns"
+    repository_url: "https://github.com/coredns/coredns"
+    timeout: 350 
     stable_ref: "v1.3.1"
+    head_ref: "master"
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+  fluentd: 
+    order: 5
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/bcabeb288a5c934278acd20b479ab8da494f2711/fluentd/icon/color/fluentd-icon-color.png"
+    display_name: Fluentd
+    sub_title: Logging
+    gitlab_name: fluentd
+    project_url: "https://github.com/fluent/fluentd"
+    repository_url: "https://github.com/fluent/fluentd"
+    timeout: 500
+    stable_ref: "v1.3.3"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
-  linkerd: 
-    order: 5
-    active: true
     app_layer: true
-    timeout: 1500
+  linkerd: 
+    order: 6
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
+    display_name: Linkerd
+    sub_title: Service Mesh
     gitlab_name: linkerd
+    project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
-    stable_ref: "1.5.2"
+    timeout: 1500
+    stable_ref: "1.6.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
+    app_layer: true
   so:
     order: 7
     active: true
-    app_layer: true
-    timeout: 2100
+    logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
+    display_name: ONAP
+    sub_title: Network Automation
     gitlab_name: so
+    project_url: "https://github.com/onap/so"
     repository_url: "https://github.com/onap/so"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/onap-so-configuration/master/cncfci.yml"
+    timeout: 2100
     stable_ref: "v1.1.1"
     head_ref: "master"
     stable_chart: "onap-amsterdam"
     head_chart: "onap-master"
+    app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.pngOLD"	
-    display_name: EnvoyOld
-    sub_title: Service Mesh TestOLD	
-    project_url: "https://github.com/envoyproxy/envoy/releasesOLD"
-    order: 6
+    order: 3
     active: true
-    app_layer: true
-    timeout: 2100
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
+    display_name: Envoy
+    sub_title: Service Mesh
     gitlab_name: envoy
+    project_url: "https://github.com/envoyproxy/envoy"
     repository_url: "https://github.com/envoyproxy/envoy"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/master/cncfci.yml"
+    timeout: 2100
     stable_ref: "v1.9.0"
     head_ref: "master"
     stable_chart: "stable"
