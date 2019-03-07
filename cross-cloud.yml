@@ -7,7 +7,7 @@ gitlab_pipeline:
       - "App-Deploy"
       - "e2e"
   cross-cloud:
-    timeout: 60
+    timeout: 1200
     status_jobs:
       - "Provisioning"
   project:
