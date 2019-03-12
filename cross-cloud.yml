@@ -94,7 +94,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     timeout: 600
-    stable_ref: "v2.7.1"
+    stable_ref: "v2.8.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -109,7 +109,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     timeout: 350 
-    stable_ref: "v1.3.1"
+    stable_ref: "v1.4.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -124,7 +124,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     timeout: 500
-    stable_ref: "v1.3.3"
+    stable_ref: "v1.4.0"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -139,7 +139,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     timeout: 1500
-    stable_ref: "1.6.1"
+    stable_ref: "1.6.2"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
