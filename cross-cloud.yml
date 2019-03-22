@@ -13,8 +13,11 @@ gitlab_pipeline:
   project:
     status_jobs:
       - "container"
+      - "container-aufs"
+      - "container-overlayfs"
       - "compile"
-
+      - "compile-aufs"
+      - "compile-overlayfs"
 clouds:
   aws: 
     active: false
