@@ -77,7 +77,7 @@ projects:
   kubernetes: 
     order: 1
     active: true
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/kubernetes/icon/color/kubernetes-icon-noborder-color.png"
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/icon/color/kubernetes-icon-color.svg?sanitize=true"
     display_name: Kubernetes
     sub_title: Orchestration
     gitlab_name: Kubernetes
