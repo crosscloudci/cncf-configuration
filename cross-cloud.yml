@@ -89,7 +89,7 @@ projects:
     app_layer: false
   prometheus: 
     order: 4
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
     sub_title: Monitoring
@@ -98,7 +98,7 @@ projects:
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
     timeout: 1200
-    stable_ref: "v2.8.0"
+    stable_ref: "v2.8.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -114,7 +114,7 @@ projects:
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
     timeout: 3600 
-    stable_ref: "v1.4.0"
+    stable_ref: "v1.5.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -130,14 +130,14 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
     timeout: 700
-    stable_ref: "v1.4.1"
+    stable_ref: "v1.4.2"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
   linkerd: 
     order: 6
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -153,7 +153,7 @@ projects:
     app_layer: true
   so:
     order: 7
-    active: false
+    active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
@@ -171,7 +171,7 @@ projects:
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
     order: 3
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
     sub_title: Service Mesh
@@ -180,7 +180,7 @@ projects:
     repository_url: "https://github.com/envoyproxy/envoy"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.9.0"
+    stable_ref: "v1.10.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
