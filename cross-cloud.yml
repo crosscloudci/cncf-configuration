@@ -13,8 +13,11 @@ gitlab_pipeline:
   project:
     status_jobs:
       - "container"
+      - "container-aufs"
+      - "container-overlayfs"
       - "compile"
-
+      - "compile-aufs"
+      - "compile-overlayfs"
 clouds:
   aws: 
     active: false
@@ -74,7 +77,7 @@ projects:
   kubernetes: 
     order: 1
     active: true
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/kubernetes/icon/color/kubernetes-icon-noborder-color.png"
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/icon/color/kubernetes-icon-color.svg?sanitize=true"
     display_name: Kubernetes
     sub_title: Orchestration
     gitlab_name: Kubernetes
@@ -95,7 +98,7 @@ projects:
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
     timeout: 1200
-    stable_ref: "v2.8.0"
+    stable_ref: "v2.8.1"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -110,8 +113,8 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
-    timeout: 2400 
-    stable_ref: "v1.4.0"
+    timeout: 3600 
+    stable_ref: "v1.5.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -126,8 +129,8 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
-    timeout: 1560
-    stable_ref: "v1.4.1"
+    timeout: 700
+    stable_ref: "v1.4.2"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -177,7 +180,7 @@ projects:
     repository_url: "https://github.com/envoyproxy/envoy"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.9.0"
+    stable_ref: "v1.10.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
