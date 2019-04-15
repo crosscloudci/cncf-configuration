@@ -98,7 +98,7 @@ projects:
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
     timeout: 1200
-    stable_ref: "v2.8.1"
+    stable_ref: "v2.9.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
