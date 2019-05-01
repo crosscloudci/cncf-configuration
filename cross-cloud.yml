@@ -1,7 +1,7 @@
 ---
 gitlab_pipeline:
   cross-project:
-    timeout: 3610
+    timeout: 2880
     status_jobs:
       - "Build-Source"
       - "App-Deploy"
