@@ -89,7 +89,7 @@ projects:
     app_layer: false
   prometheus: 
     order: 5
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
     sub_title: Monitoring
@@ -105,7 +105,7 @@ projects:
     app_layer: true
   coredns: 
     order: 2
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/coredns/icon/color/core-dns-icon-color.png"
     display_name: CoreDNS
     sub_title: Service Discovery
@@ -153,7 +153,7 @@ projects:
     app_layer: true
   so:
     order: 7
-    active: true
+    active: false
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
@@ -171,7 +171,7 @@ projects:
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
     order: 3
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
     sub_title: Service Mesh
