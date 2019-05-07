@@ -7,7 +7,7 @@ gitlab_pipeline:
       - "App-Deploy"
       - "e2e"
   cross-cloud:
-    timeout: 1200
+    timeout: 1500
     status_jobs:
       - "Provisioning"
   project:
@@ -85,7 +85,7 @@ projects:
     gitlab_name: Kubernetes
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
-    timeout: 900
+    timeout: 1680
     stable_ref: "v1.13.0"
     head_ref: "master"
     app_layer: false
@@ -115,7 +115,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
-    timeout: 3600 
+    timeout: 2700 
     stable_ref: "v1.5.0"
     head_ref: "master"
     stable_chart: "stable"
@@ -131,7 +131,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
-    timeout: 700
+    timeout: 1800
     stable_ref: "v1.4.2"
     head_ref: "master"
     stable_chart: "cncf"
