@@ -7,7 +7,7 @@ gitlab_pipeline:
       - "App-Deploy"
       - "e2e"
   cross-cloud:
-    timeout: 1200
+    timeout: 1500
     status_jobs:
       - "Provisioning"
   project:
@@ -15,6 +15,8 @@ gitlab_pipeline:
       - "container"
       - "container-aufs"
       - "container-overlayfs"
+      - "baseimage-aufs"
+      - "baseimage-overlayfs"
       - "compile"
       - "compile-aufs"
       - "compile-overlayfs"
@@ -83,7 +85,7 @@ projects:
     gitlab_name: Kubernetes
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
-    timeout: 900
+    timeout: 1680
     stable_ref: "v1.13.0"
     head_ref: "master"
     app_layer: false
@@ -113,7 +115,7 @@ projects:
     project_url: "https://github.com/coredns/coredns"
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
-    timeout: 3600 
+    timeout: 2700 
     stable_ref: "v1.5.0"
     head_ref: "master"
     stable_chart: "stable"
@@ -129,7 +131,7 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
-    timeout: 700
+    timeout: 1800
     stable_ref: "v1.4.2"
     head_ref: "master"
     stable_chart: "cncf"
@@ -137,7 +139,7 @@ projects:
     app_layer: true
   linkerd: 
     order: 6
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -145,7 +147,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
-    timeout: 1500
+    timeout: 2600
     stable_ref: "1.6.2"
     head_ref: "master"
     stable_chart: "stable"
@@ -153,7 +155,7 @@ projects:
     app_layer: true
   so:
     order: 7
-    active: false
+    active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
@@ -171,7 +173,7 @@ projects:
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
   envoy:
     order: 3
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
     sub_title: Service Mesh
