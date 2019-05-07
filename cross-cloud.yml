@@ -15,6 +15,8 @@ gitlab_pipeline:
       - "container"
       - "container-aufs"
       - "container-overlayfs"
+      - "baseimage-aufs"
+      - "baseimage-overlayfs"
       - "compile"
       - "compile-aufs"
       - "compile-overlayfs"
@@ -97,7 +99,7 @@ projects:
     project_url: "https://github.com/prometheus/prometheus"
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
-    timeout: 1200
+    timeout: 600
     stable_ref: "v2.9.1"
     head_ref: "master"
     stable_chart: "stable"
@@ -145,7 +147,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
-    timeout: 2220
+    timeout: 2600
     stable_ref: "1.6.2"
     head_ref: "master"
     stable_chart: "stable"
