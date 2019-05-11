@@ -125,10 +125,7 @@ projects:
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
-    app_layer: true
-    arch:
-      - "amd64" 
-      - "arm64"      
+    app_layer: true      
   fluentd: 
     order: 4
     active: true
