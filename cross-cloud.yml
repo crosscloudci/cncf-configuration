@@ -89,6 +89,9 @@ projects:
     stable_ref: "v1.13.0"
     head_ref: "master"
     app_layer: false
+    arch:
+      - "amd64"
+      - "arm64"      
   prometheus: 
     order: 5
     active: true
@@ -105,6 +108,8 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    arch:
+      - "amd64"    
   coredns: 
     order: 2
     active: true
@@ -120,7 +125,7 @@ projects:
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
-    app_layer: true
+    app_layer: true      
   fluentd: 
     order: 4
     active: true
@@ -137,6 +142,8 @@ projects:
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
+    arch:
+      - "amd64"    
   linkerd: 
     order: 6
     active: true
@@ -153,6 +160,8 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    arch:
+      - "amd64"    
   so:
     order: 7
     active: true
@@ -171,6 +180,8 @@ projects:
     app_layer: true
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
+    arch:
+      - "amd64"    
   envoy:
     order: 3
     active: true
@@ -187,3 +198,5 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    arch:
+      - "amd64"    
