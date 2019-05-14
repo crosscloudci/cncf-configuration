@@ -109,7 +109,8 @@ projects:
     head_chart: "stable"
     app_layer: true
     arch:
-      - "amd64"    
+      - "amd64"
+      - "arm64"       
   coredns: 
     order: 2
     active: true
@@ -143,7 +144,8 @@ projects:
     head_chart: "cncf"
     app_layer: true
     arch:
-      - "amd64"    
+      - "amd64"
+      - "arm64"       
   linkerd: 
     order: 6
     active: true
@@ -200,3 +202,4 @@ projects:
     app_layer: true
     arch:
       - "amd64"    
+      - "arm64" 
