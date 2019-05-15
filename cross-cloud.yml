@@ -202,4 +202,3 @@ projects:
     app_layer: true
     arch:
       - "amd64"    
-      - "arm64" 
