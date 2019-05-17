@@ -91,7 +91,7 @@ projects:
     app_layer: false
     arch:
       - "amd64"
-      - "arm64"      
+      - "arm64"
   prometheus: 
     order: 5
     active: true
@@ -126,10 +126,10 @@ projects:
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
-    app_layer: true 
+    app_layer: true      
     arch:
       - "amd64"
-      - "arm64"     
+      - "arm64"
   fluentd: 
     order: 4
     active: true
@@ -205,3 +205,4 @@ projects:
     app_layer: true
     arch:
       - "amd64"
+      - "arm64"
