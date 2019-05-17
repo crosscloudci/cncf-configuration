@@ -13,11 +13,15 @@ gitlab_pipeline:
   project:
     status_jobs:
       - "container"
+      - "container-arm"
       - "container-aufs"
       - "container-overlayfs"
+      - "baseimage"
+      - "baseimage-arm"
       - "baseimage-aufs"
       - "baseimage-overlayfs"
       - "compile"
+      - "compile-arm"
       - "compile-aufs"
       - "compile-overlayfs"
 clouds:
