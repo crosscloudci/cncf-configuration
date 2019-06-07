@@ -12,14 +12,12 @@ gitlab_pipeline:
       - "Provisioning"
   project:
     status_jobs:
-      - "container"
-      - "container-aufs"
-      - "container-overlayfs"
-      - "baseimage-aufs"
-      - "baseimage-overlayfs"
+      - "baseimage"
+      - "baseimage-arm"
       - "compile"
-      - "compile-aufs"
-      - "compile-overlayfs"
+      - "compile-arm"
+      - "container"
+      - "container-arm"
 clouds:
   aws: 
     active: false
@@ -91,7 +89,7 @@ projects:
     app_layer: false
     arch:
       - "amd64"
-      - "arm64"      
+      - "arm64"
   prometheus: 
     order: 5
     active: true
@@ -103,7 +101,7 @@ projects:
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
     timeout: 1200
-    stable_ref: "v2.9.2"
+    stable_ref: "v2.10.0"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -126,10 +124,10 @@ projects:
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
-    app_layer: true 
+    app_layer: true      
     arch:
       - "amd64"
-      - "arm64"     
+      - "arm64"
   fluentd: 
     order: 4
     active: true
@@ -140,8 +138,8 @@ projects:
     project_url: "https://github.com/fluent/fluentd"
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
-    timeout: 1800
-    stable_ref: "v1.4.2"
+    timeout: 2700
+    stable_ref: "v1.5.0"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
@@ -160,7 +158,7 @@ projects:
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
     timeout: 2600
-    stable_ref: "1.6.2"
+    stable_ref: "1.6.3"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
@@ -205,3 +203,4 @@ projects:
     app_layer: true
     arch:
       - "amd64"
+      - "arm64"
