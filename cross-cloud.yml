@@ -72,7 +72,11 @@ clouds:
     display_name: Open Stacking
     order: 16
     
-
+cncf_relations: 
+  - "Graduated" 
+  - "Incubating" 
+  - "Linux Foundation"
+    
 projects:
   kubernetes: 
     order: 1
