@@ -94,6 +94,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated"  
   prometheus: 
     order: 5
     active: true
@@ -112,7 +113,8 @@ projects:
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   coredns: 
     order: 2
     active: true
@@ -132,6 +134,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
   fluentd: 
     order: 4
     active: true
@@ -150,7 +153,8 @@ projects:
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   linkerd: 
     order: 6
     active: true
@@ -168,7 +172,8 @@ projects:
     head_chart: "stable"
     app_layer: true
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Incubating" 
   so:
     order: 7
     active: true
@@ -188,7 +193,8 @@ projects:
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Linux Foundation" 
   envoy:
     order: 3
     active: true
@@ -208,3 +214,4 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
