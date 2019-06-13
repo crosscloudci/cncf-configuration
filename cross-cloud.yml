@@ -72,7 +72,11 @@ clouds:
     display_name: Open Stacking
     order: 16
     
-
+cncf_relations: 
+  - "Graduated" 
+  - "Incubating" 
+  - "Linux Foundation"
+    
 projects:
   kubernetes: 
     order: 1
@@ -90,6 +94,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated"  
   prometheus: 
     order: 5
     active: true
@@ -108,7 +113,8 @@ projects:
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   coredns: 
     order: 2
     active: true
@@ -128,6 +134,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
   fluentd: 
     order: 4
     active: true
@@ -139,14 +146,15 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
     timeout: 2700
-    stable_ref: "v1.5.0"
+    stable_ref: "v1.5.1"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   linkerd: 
     order: 6
     active: true
@@ -164,7 +172,8 @@ projects:
     head_chart: "stable"
     app_layer: true
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Incubating" 
   so:
     order: 7
     active: true
@@ -184,7 +193,8 @@ projects:
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Linux Foundation" 
   envoy:
     order: 3
     active: true
@@ -204,3 +214,4 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
