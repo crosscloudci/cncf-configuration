@@ -139,7 +139,7 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
     timeout: 2700
-    stable_ref: "v1.5.1"
+    stable_ref: "v1.5.2"
     head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
