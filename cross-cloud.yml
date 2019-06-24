@@ -112,6 +112,8 @@ projects:
     arch:
       - "amd64"
       - "arm64"
+    stable_ref: "v2.10.0"
+    head_ref: "master"
     cncf_relation: "Graduated" 
   coredns: 
     order: 2
