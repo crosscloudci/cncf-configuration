@@ -90,6 +90,7 @@ projects:
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/kubernetes-configuration"
     timeout: 1680
     stable_ref: "v1.13.0"
+    head_ref: "master"
     app_layer: false
     arch:
       - "amd64"
