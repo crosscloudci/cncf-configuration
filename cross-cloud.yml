@@ -73,9 +73,9 @@ clouds:
     order: 16
     
 cncf_relations: 
-  - "Graduated" 
-  - "Incubating" 
   - "Linux Foundation"
+  - "Incubating" 
+  - "Graduated" 
     
 projects:
   kubernetes: 
