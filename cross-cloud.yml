@@ -72,7 +72,11 @@ clouds:
     display_name: Open Stacking
     order: 16
     
-
+cncf_relations: 
+  - "Graduated" 
+  - "Incubating" 
+  - "Linux Foundation"
+    
 projects:
   kubernetes: 
     order: 1
@@ -84,12 +88,13 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 1680
+    app_layer: false
     stable_ref: "v1.13.0"
     head_ref: "master"
-    app_layer: false
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated"  
   prometheus: 
     order: 5
     active: true
@@ -101,14 +106,13 @@ projects:
     repository_url: "https://github.com/prometheus/prometheus"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/prometheus-configuration/master/cncfci.yml"
     timeout: 1200
-    stable_ref: "v2.10.0"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   coredns: 
     order: 2
     active: true
@@ -120,14 +124,13 @@ projects:
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
     timeout: 2700 
-    stable_ref: "v1.5.0"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true      
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
   fluentd: 
     order: 4
     active: true
@@ -139,14 +142,13 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
     timeout: 2700
-    stable_ref: "v1.5.0"
-    head_ref: "master"
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
     arch:
       - "amd64"
-      - "arm64"       
+      - "arm64"
+    cncf_relation: "Graduated" 
   linkerd: 
     order: 6
     active: true
@@ -158,13 +160,12 @@ projects:
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
     timeout: 2600
-    stable_ref: "1.6.3"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Incubating" 
   so:
     order: 7
     active: true
@@ -176,15 +177,16 @@ projects:
     repository_url: "https://github.com/onap/so"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/onap-so-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.1.1"
-    head_ref: "master"
     stable_chart: "onap-amsterdam"
     head_chart: "onap-master"
     app_layer: true
+    stable_ref: "v1.1.1"
+    head_ref: "master"
     container_image_url: "https://nexus3.onap.org:10001/openecomp/mso"
     head_base_job_url: "https://jenkins.onap.org/view/Daily-Jobs/job/so-master-docker-version-java-daily"
     arch:
-      - "amd64"    
+      - "amd64"
+    cncf_relation: "Linux Foundation" 
   envoy:
     order: 3
     active: true
@@ -196,11 +198,10 @@ projects:
     repository_url: "https://github.com/envoyproxy/envoy"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.10.0"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
     arch:
       - "amd64"
       - "arm64"
+    cncf_relation: "Graduated" 
