@@ -120,7 +120,7 @@ projects:
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
     timeout: 2700 
-    stable_ref: "v1.5.1"
+    stable_ref: "v1.5.2"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
