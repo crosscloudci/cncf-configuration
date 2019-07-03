@@ -88,8 +88,6 @@ projects:
     project_url: "https://github.com/kubernetes/kubernetes"
     repository_url: "https://github.com/kubernetes/kubernetes"
     timeout: 1680
-    stable_ref: "v1.13.0"
-    head_ref: "master"
     app_layer: false
     arch:
       - "amd64"
@@ -112,8 +110,6 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    stable_ref: "v2.10.0"
-    head_ref: "master"
     cncf_relation: "Graduated" 
   coredns: 
     order: 2
@@ -126,8 +122,6 @@ projects:
     repository_url: "https://github.com/coredns/coredns"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/coredns-configuration/master/cncfci.yml"
     timeout: 2700 
-    stable_ref: "v1.5.0"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true      
@@ -146,8 +140,6 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration/master/cncfci.yml"
     timeout: 2700
-    head_ref: "master"
-    stable_ref: "v1.4.0"
     stable_chart: "cncf"
     head_chart: "cncf"
     app_layer: true
@@ -166,8 +158,6 @@ projects:
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
     timeout: 2600
-    stable_ref: "1.6.3"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
@@ -185,8 +175,6 @@ projects:
     repository_url: "https://github.com/onap/so"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/onap-so-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.1.1"
-    head_ref: "master"
     stable_chart: "onap-amsterdam"
     head_chart: "onap-master"
     app_layer: true
@@ -206,8 +194,6 @@ projects:
     repository_url: "https://github.com/envoyproxy/envoy"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/envoy-configuration/master/cncfci.yml"
     timeout: 2100
-    stable_ref: "v1.10.0"
-    head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
