@@ -158,7 +158,7 @@ projects:
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration/master/cncfci.yml"
     timeout: 2600
-    stable_ref: "1.6.3"
+    stable_ref: "1.6.4"
     head_ref: "master"
     stable_chart: "stable"
     head_chart: "stable"
