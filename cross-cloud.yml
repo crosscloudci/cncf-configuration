@@ -167,7 +167,7 @@ projects:
     app_layer: true
     arch:
       - "amd64"
-    cncf_relation: "Graduated" 
+    cncf_relation: "Incubating" 
   so:
     order: 7
     active: true
