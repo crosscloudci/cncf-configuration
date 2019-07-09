@@ -73,8 +73,8 @@ clouds:
     order: 16
     
 cncf_relations: 
-  - "Graduated CNCF"
-  - "Incubating CNCF" 
+  - "Graduated"
+  - "Incubating" 
   - "Linux Foundation"
 
     
@@ -96,7 +96,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    cncf_relation: "Graduated CNCF"  
+    cncf_relation: "Graduated"  
   prometheus: 
     order: 5
     active: true
@@ -114,7 +114,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    cncf_relation: "Graduated CNCF" 
+    cncf_relation: "Graduated" 
   coredns: 
     order: 2
     active: true
@@ -132,7 +132,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    cncf_relation: "Graduated CNCF" 
+    cncf_relation: "Graduated" 
   fluentd: 
     order: 4
     active: true
@@ -150,7 +150,7 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    cncf_relation: "Graduated CNCF" 
+    cncf_relation: "Graduated" 
   linkerd: 
     order: 6
     active: true
@@ -167,7 +167,7 @@ projects:
     app_layer: true
     arch:
       - "amd64"
-    cncf_relation: "Incubating CNCF" 
+    cncf_relation: "Incubating" 
   so:
     order: 7
     active: true
@@ -206,4 +206,4 @@ projects:
     arch:
       - "amd64"
       - "arm64"
-    cncf_relation: "Graduated CNCF" 
+    cncf_relation: "Graduated" 
