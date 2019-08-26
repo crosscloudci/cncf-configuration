@@ -207,3 +207,20 @@ projects:
       - "amd64"
       - "arm64"
     cncf_relation: "Graduated" 
+  crosscloudci/testproj: 
+    order: 50
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
+    display_name: Test Project
+    sub_title: Testing
+    gitlab_name: testproj
+    project_url: "https://github.com/crosscloudci/testproj"
+    repository_url: "https://github.com/crosscloudci/testproj"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/testproj-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+    arch:
+      - "amd64"
+    cncf_relation: "Linux Foundation" 
