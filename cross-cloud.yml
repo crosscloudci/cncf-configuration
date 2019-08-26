@@ -224,7 +224,7 @@ projects:
     arch:
       - "amd64"
     cncf_relation: "Incubating"
-  testproj: 
+  crosscloudci/testproj: 
     order: 50
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
