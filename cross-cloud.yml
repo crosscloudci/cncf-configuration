@@ -221,6 +221,7 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    deploy: false
     arch:
       - "amd64"
     cncf_relation: "Incubating"
