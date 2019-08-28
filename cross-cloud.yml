@@ -12,12 +12,12 @@ gitlab_pipeline:
       - "Provisioning"
   project:
     status_jobs:
-      - "baseimage"
-      - "baseimage-arm"
-      - "compile"
-      - "compile-arm"
-      - "container"
       - "container-arm"
+      - "container" 
+      - "compile-arm"      
+      - "compile"     
+      - "baseimage-arm"      
+      - "baseimage"
 clouds:
   aws: 
     active: false
@@ -153,7 +153,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd: 
     order: 6
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -209,7 +209,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd2: 
     order: 6
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
     sub_title: Service Mesh
@@ -221,6 +221,7 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    deploy: false
     arch:
       - "amd64"
     cncf_relation: "Incubating"
@@ -238,6 +239,7 @@ projects:
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
+    deploy: false
     arch:
       - "amd64"
     cncf_relation: "Linux Foundation" 
