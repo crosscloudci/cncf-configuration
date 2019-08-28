@@ -12,12 +12,12 @@ gitlab_pipeline:
       - "Provisioning"
   project:
     status_jobs:
-      - "baseimage"
-      - "baseimage-arm"
-      - "compile"
-      - "compile-arm"
-      - "container"
       - "container-arm"
+      - "container" 
+      - "compile-arm"      
+      - "compile"     
+      - "baseimage-arm"      
+      - "baseimage"
 clouds:
   aws: 
     active: false
