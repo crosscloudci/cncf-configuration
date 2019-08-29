@@ -217,7 +217,7 @@ projects:
     project_url: "https://github.com/linkerd/linkerd2"
     repository_url: "https://github.com/linkerd/linkerd2"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd2-configuration"
-    timeout: 2600
+    timeout: 1200
     stable_chart: "stable"
     head_chart: "stable"
     app_layer: true
