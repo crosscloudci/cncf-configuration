@@ -12,12 +12,12 @@ gitlab_pipeline:
       - "Provisioning"
   project:
     status_jobs:
-      - "baseimage"
-      - "baseimage-arm"
-      - "compile"
-      - "compile-arm"
-      - "container"
       - "container-arm"
+      - "container" 
+      - "compile-arm"      
+      - "compile"     
+      - "baseimage-arm"      
+      - "baseimage"
 clouds:
   aws: 
     active: false
@@ -153,7 +153,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd: 
     order: 6
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -207,3 +207,39 @@ projects:
       - "amd64"
       - "arm64"
     cncf_relation: "Graduated" 
+  linkerd2: 
+    order: 6
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
+    display_name: Linkerd 2.x
+    sub_title: Service Mesh
+    gitlab_name: linkerd2
+    project_url: "https://github.com/linkerd/linkerd2"
+    repository_url: "https://github.com/linkerd/linkerd2"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd2-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+    cncf_relation: "Incubating"
+  testproj: 
+    order: 50
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
+    display_name: Test Project
+    sub_title: Testing
+    gitlab_name: testproj
+    project_url: "https://github.com/crosscloudci/testproj"
+    repository_url: "https://github.com/crosscloudci/testproj"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/testproj-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+    cncf_relation: "Linux Foundation" 
