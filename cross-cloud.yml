@@ -91,7 +91,7 @@ projects:
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/kubernetes-configuration"
     timeout: 1680
     app_layer: false
-    stable_ref: "v1.13.0"
+    stable_ref: "v1.16.2"
     head_ref: "master"
     arch:
       - "amd64"
@@ -144,8 +144,8 @@ projects:
     repository_url: "https://github.com/fluent/fluentd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/fluentd-configuration"
     timeout: 2700
-    stable_chart: "cncf"
-    head_chart: "cncf"
+    stable_chart: "stable"
+    head_chart: "stable"
     app_layer: true
     arch:
       - "amd64"
