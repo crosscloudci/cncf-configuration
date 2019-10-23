@@ -98,7 +98,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated"  
   prometheus: 
-    order: 5
+    order: 6
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
@@ -169,7 +169,7 @@ projects:
       - "amd64"
     cncf_relation: "Incubating" 
   so:
-    order: 7
+    order: 8
     active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
@@ -208,7 +208,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd2: 
-    order: 6
+    order: 7
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
