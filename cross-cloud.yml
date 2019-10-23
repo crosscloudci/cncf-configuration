@@ -225,6 +225,24 @@ projects:
     arch:
       - "amd64"
     cncf_relation: "Incubating"
+  jaeger: 
+    order: 4
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/jaeger/icon/color/jaeger-icon-color.svg?sanitize=true"
+    display_name: Jaeger
+    sub_title: Distributed Tracing
+    gitlab_name: jaeger
+    project_url: "https://github.com/jaegertracing/jaeger"
+    repository_url: "https://github.com/jaegertracing/jaeger"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/jaeger-configuration"
+    timeout: 1200
+    stable_chart: "v1.14.0"
+    head_chart: "master"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+    cncf_relation: "Graduated"
   testproj: 
     order: 50
     active: false
