@@ -236,8 +236,8 @@ projects:
     repository_url: "https://github.com/jaegertracing/jaeger"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/jaeger-configuration"
     timeout: 1200
-    stable_chart: "v1.14.0"
-    head_chart: "master"
+    stable_chart: "stable"
+    head_chart: "stable"
     app_layer: true
     deploy: false
     arch:
