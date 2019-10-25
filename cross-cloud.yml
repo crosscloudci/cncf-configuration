@@ -98,7 +98,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated"  
   prometheus: 
-    order: 5
+    order: 6
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
@@ -152,7 +152,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd: 
-    order: 6
+    order: 7
     active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
@@ -169,7 +169,7 @@ projects:
       - "amd64"
     cncf_relation: "Incubating" 
   so:
-    order: 7
+    order: 9
     active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
@@ -208,7 +208,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd2: 
-    order: 6
+    order: 8
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
@@ -225,6 +225,24 @@ projects:
     arch:
       - "amd64"
     cncf_relation: "Incubating"
+  jaeger: 
+    order: 5
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/jaeger/icon/color/jaeger-icon-color.svg?sanitize=true"
+    display_name: Jaeger
+    sub_title: Distributed Tracing
+    gitlab_name: jaeger
+    project_url: "https://github.com/jaegertracing/jaeger"
+    repository_url: "https://github.com/jaegertracing/jaeger"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/jaeger-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+    cncf_relation: "Graduated"
   testproj: 
     order: 50
     active: false
