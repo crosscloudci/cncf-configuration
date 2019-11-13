@@ -81,7 +81,7 @@ cncf_relations:
 projects:
   kubernetes: 
     order: 1
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/icon/color/kubernetes-icon-color.svg?sanitize=true"
     display_name: Kubernetes
     sub_title: Orchestration
