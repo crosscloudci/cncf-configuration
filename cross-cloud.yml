@@ -209,7 +209,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd2: 
     order: 8
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
     sub_title: Service Mesh
@@ -227,7 +227,7 @@ projects:
     cncf_relation: "Incubating"
   jaeger: 
     order: 5
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/jaeger/icon/color/jaeger-icon-color.svg?sanitize=true"
     display_name: Jaeger
     sub_title: Distributed Tracing
