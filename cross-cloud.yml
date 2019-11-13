@@ -117,7 +117,7 @@ projects:
     cncf_relation: "Graduated" 
   coredns: 
     order: 2
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/coredns/icon/color/core-dns-icon-color.png"
     display_name: CoreDNS
     sub_title: Service Discovery
