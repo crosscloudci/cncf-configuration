@@ -278,7 +278,7 @@ projects:
     deploy: false
     arch:
       - "amd64"
-  cncf_relation: "Graduated"
+    cncf_relation: "Graduated"
   testproj: 
     order: 50
     active: true
