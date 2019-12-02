@@ -260,7 +260,7 @@ projects:
     deploy: false
     arch:
       - "amd64"
-  cncf_relation: "Incubating"
+    cncf_relation: "Incubating"
   vitess:
     order: 7
     active: true
