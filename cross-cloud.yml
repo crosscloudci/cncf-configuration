@@ -245,7 +245,7 @@ projects:
     cncf_relation: "Graduated"
   etcd:
     order: 8
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/icon/color/etcd-icon-color.svg?sanitize=true"
     display_name: etcd
     sub_title: Key/Value Store
