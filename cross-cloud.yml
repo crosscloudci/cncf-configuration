@@ -281,7 +281,7 @@ projects:
     cncf_relation: "Graduated"
   testproj: 
     order: 50
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
     display_name: Test Project
     sub_title: Testing
