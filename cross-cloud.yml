@@ -99,7 +99,7 @@ projects:
     cncf_relation: "Graduated"  
   prometheus: 
     order: 6
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
     sub_title: Monitoring
@@ -117,7 +117,7 @@ projects:
     cncf_relation: "Graduated" 
   coredns: 
     order: 2
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/coredns/icon/color/core-dns-icon-color.png"
     display_name: CoreDNS
     sub_title: Service Discovery
@@ -135,7 +135,7 @@ projects:
     cncf_relation: "Graduated" 
   fluentd: 
     order: 4
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/bcabeb288a5c934278acd20b479ab8da494f2711/fluentd/icon/color/fluentd-icon-color.png"
     display_name: Fluentd
     sub_title: Logging
@@ -170,7 +170,7 @@ projects:
     cncf_relation: "Incubating" 
   so:
     order: 10
-    active: true
+    active: false
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
     sub_title: Network Automation
@@ -191,7 +191,7 @@ projects:
     cncf_relation: "Linux Foundation" 
   envoy:
     order: 3
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/ab42c9591f6e0fdccc62c7b88f353d3fdc825734/envoy/icon/color/envoy-icon-color.png"
     display_name: Envoy
     sub_title: Service Mesh
@@ -209,7 +209,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd2: 
     order: 9
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
     sub_title: Service Mesh
@@ -227,7 +227,7 @@ projects:
     cncf_relation: "Incubating"
   jaeger: 
     order: 5
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/jaeger/icon/color/jaeger-icon-color.svg?sanitize=true"
     display_name: Jaeger
     sub_title: Distributed Tracing
@@ -245,7 +245,7 @@ projects:
     cncf_relation: "Graduated"
   etcd:
     order: 8
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/icon/color/etcd-icon-color.svg?sanitize=true"
     display_name: etcd
     sub_title: Key/Value Store
@@ -263,7 +263,7 @@ projects:
     cncf_relation: "Incubating"
   vitess:
     order: 7
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/vitess/horizontal/color/vitess-horizontal-color.svg?sanitize=true"
     display_name: Vitess
     sub_title: Storage
