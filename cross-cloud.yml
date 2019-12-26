@@ -153,7 +153,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd: 
     order: 99
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -169,7 +169,7 @@ projects:
       - "amd64"
     cncf_relation: "Incubating" 
   so:
-    order: 10
+    order: 11
     active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
@@ -208,7 +208,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd2: 
-    order: 9
+    order: 10
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
@@ -244,7 +244,7 @@ projects:
       - "amd64"
     cncf_relation: "Graduated"
   etcd:
-    order: 8
+    order: 9
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/icon/color/etcd-icon-color.svg?sanitize=true"
     display_name: etcd
@@ -271,6 +271,24 @@ projects:
     project_url: "https://github.com/vitessio/vitess"
     repository_url: "https://github.com/vitessio/vitess"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/vitess-configuration"
+    timeout: 1200
+    stable_chart: "stable"
+    head_chart: "stable"
+    app_layer: true
+    deploy: false
+    arch:
+      - "amd64"
+    cncf_relation: "Graduated"
+  tuf:
+    order: 8
+    active: true
+    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tuf/icon/color/tuf-icon-color.svg?sanitize=true"
+    display_name: TUF
+    sub_title: Software Update Spec
+    gitlab_name: tuf
+    project_url: "https://github.com/theupdateframework/tuf"
+    repository_url: "https://github.com/theupdateframework/tuf"
+    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/tuf-configuration"
     timeout: 1200
     stable_chart: "stable"
     head_chart: "stable"
