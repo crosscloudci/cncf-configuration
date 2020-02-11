@@ -153,7 +153,7 @@ projects:
     cncf_relation: "Graduated" 
   linkerd: 
     order: 99
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd
     sub_title: Service Mesh
@@ -169,7 +169,7 @@ projects:
       - "amd64"
     cncf_relation: "Incubating" 
   so:
-    order: 10
+    order: 11
     active: true
     logo_url: "https://github.com/crosscloudci/artwork/raw/master/ONAP/logo_onap_2017-square.png"
     display_name: ONAP
@@ -208,7 +208,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   linkerd2: 
-    order: 9
+    order: 10
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/53f1179f7950f27e330fce4e983304de59811b52/linkerd/icon/color/linkerd-icon-color.png"
     display_name: Linkerd 2.x
@@ -299,7 +299,7 @@ projects:
     cncf_relation: "Graduated"
   testproj: 
     order: 50
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
     display_name: Test Project
     sub_title: Testing
