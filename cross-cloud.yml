@@ -281,7 +281,7 @@ projects:
     cncf_relation: "Graduated"
   tuf:
     order: 7
-    active: true
+    active: false
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tuf/icon/color/tuf-icon-color.svg?sanitize=true"
     display_name: TUF
     sub_title: Software Update Spec
