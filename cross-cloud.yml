@@ -158,7 +158,7 @@ projects:
     display_name: Linkerd
     sub_title: Service Mesh
     gitlab_name: linkerd
-    projec9_url: "https://github.com/linkerd/linkerd"
+    project_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration"
     timeout: 2600
