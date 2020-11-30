@@ -98,7 +98,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated"  
   prometheus: 
-    order: 6
+    order: 7
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/1d4e7cf3b60af40e008b2e2413f7a2d1ff784b52/prometheus/icon/color/prometheus-icon-color.png"
     display_name: Prometheus
@@ -134,7 +134,7 @@ projects:
       - "arm64"
     cncf_relation: "Graduated" 
   fluentd: 
-    order: 4
+    order: 5
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/bcabeb288a5c934278acd20b479ab8da494f2711/fluentd/icon/color/fluentd-icon-color.png"
     display_name: Fluentd
@@ -158,7 +158,7 @@ projects:
     display_name: Linkerd
     sub_title: Service Mesh
     gitlab_name: linkerd
-    project_url: "https://github.com/linkerd/linkerd"
+    projec9_url: "https://github.com/linkerd/linkerd"
     repository_url: "https://github.com/linkerd/linkerd"
     configuration_repo: "https://raw.githubusercontent.com/crosscloudci/linkerd-configuration"
     timeout: 2600
@@ -226,7 +226,7 @@ projects:
       - "amd64"
     cncf_relation: "Incubating"
   jaeger: 
-    order: 5
+    order: 6
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/jaeger/icon/color/jaeger-icon-color.svg?sanitize=true"
     display_name: Jaeger
@@ -244,7 +244,7 @@ projects:
       - "amd64"
     cncf_relation: "Graduated"
   etcd:
-    order: 9
+    order: 4
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/etcd/icon/color/etcd-icon-color.svg?sanitize=true"
     display_name: etcd
@@ -260,9 +260,9 @@ projects:
     deploy: false
     arch:
       - "amd64"
-    cncf_relation: "Incubating"
+    cncf_relation: "Graduated"
   vitess:
-    order: 8
+    order: 9
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/vitess/horizontal/color/vitess-horizontal-color.svg?sanitize=true"
     display_name: Vitess
@@ -280,7 +280,7 @@ projects:
       - "amd64"
     cncf_relation: "Graduated"
   tuf:
-    order: 7
+    order: 8
     active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tuf/icon/color/tuf-icon-color.svg?sanitize=true"
     display_name: TUF
