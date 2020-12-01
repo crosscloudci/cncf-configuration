@@ -296,28 +296,10 @@ projects:
     deploy: false
     arch:
       - "amd64"
-    cncf_relation: "Graduated"
-  tuf:
-    order: 7
-    active: true
-    logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tuf/icon/color/tuf-icon-color.svg?sanitize=true"
-    display_name: TUF
-    sub_title: Software Update Spec
-    gitlab_name: tuf
-    project_url: "https://github.com/theupdateframework/tuf"
-    repository_url: "https://github.com/theupdateframework/tuf"
-    configuration_repo: "https://raw.githubusercontent.com/crosscloudci/tuf-configuration"
-    timeout: 1200
-    stable_chart: "stable"
-    head_chart: "stable"
-    app_layer: true
-    deploy: false
-    arch:
-      - "amd64"
-    cncf_relation: "Graduated"    
+    cncf_relation: "Graduated"   
   testproj: 
     order: 50
-    active: false
+    active: true
     logo_url: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.svg?sanitize=true"
     display_name: Test Project
     sub_title: Testing
